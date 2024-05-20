@@ -3,7 +3,7 @@ import Navbar from "../shared/Navbar/Navbar";
 
 const Main = () => {
     return (
-        <div>
+        <div className="font-primary">
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>

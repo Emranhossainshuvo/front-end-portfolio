@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center">
                 {/* div for left side element such as name and icon */}
                 <div>
-                    <h3 className="font-primary">Md. Emran Hossain</h3>
+                    <h3>Md. Emran Hossain</h3>
                 </div>
 
                 <div className={`menu-links absolute md:static top-0 right-5 md:flex ${menuOpen ? 'block' : 'hidden'}`}>
