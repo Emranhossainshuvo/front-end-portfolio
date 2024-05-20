@@ -4,10 +4,10 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
-    
+
     const handleToggle = () => {
         setMenuOpen(!menuOpen)
-    }
+    };
 
 
     return (
@@ -18,16 +18,17 @@ const Navbar = () => {
                 <div>
                     <h3>Md. Emran Hossain</h3>
                 </div>
-                <div className="menu-icon md:hidden" onClick={handleToggle}>
-                    {menuOpen ? <FaTimes /> : <FaBars />}
-                </div>
-                <div className={`menu-links md:flex ${menuOpen ? 'block' : 'hidden'}`}>
-                    <ul className="flex items-center gap-5">
+
+                <div className={`menu-links absolute md:static top-0 right-5 md:flex ${menuOpen ? 'block' : 'hidden'}`}>
+                    <ul className="md:flex items-center gap-5">
                         <li>About</li>
                         <li>Projects</li>
                         <li>Skills</li>
                         <li>Contact</li>
                     </ul>
+                </div>
+                <div className="menu-icon md:hidden" onClick={handleToggle}>
+                    {menuOpen ? <FaTimes /> : <FaBars />}
                 </div>
 
             </div>
