@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <>
             {/* section to hold everything in this file  */}
-            <section className="mb-20">
+            <section className="mb-20 p-2">
                 {/* section to hold section title */}
                 <section className="mb-20 text-center">
                     <section className="w-11/12">
@@ -97,7 +97,6 @@ const Projects = () => {
 
                         </section>
                     </section>
-
                 </section>
             </section>
 

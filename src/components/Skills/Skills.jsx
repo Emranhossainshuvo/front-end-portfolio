@@ -1,7 +1,6 @@
 import { BiLogoMongodb } from "react-icons/bi";
 import { DiGit } from "react-icons/di";
 import {  FaNode, FaReact } from "react-icons/fa";
-import { GrDeploy } from "react-icons/gr";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiFirebase, SiJsonwebtokens } from "react-icons/si";
 
@@ -13,7 +12,7 @@ const Skills = () => {
     return (
         <>
             {/* section to hold everything */}
-            <section className="mb-20">
+            <section className="mb-20 p-2">
                 {/* section for the title and description texts */}
                 <section className="flex justify-between mb-20 items-center">
                     <section className="w-11/12">
