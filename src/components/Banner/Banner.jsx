@@ -16,7 +16,7 @@ const Banner = () => {
                     <section>
                     </section>
                 </section>
-                <section className="rounded-xl bg-gradient-to-r from-[#2E2E2E] via-[#444444] to-[#919191]">
+                <section>
                     <img className="w-96 px-4 rounded-md" src="https://i.ibb.co/3rhzz4M/IMG-20231209-080753-removebg-4-removebg-preview.png" alt="" />
                 </section>
             </div>
