@@ -1,6 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 import './banner.css'
 import { RxResume } from 'react-icons/rx';
+import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
@@ -13,7 +14,25 @@ const Banner = () => {
                     {/* texts about me */}
                     <p className="text-xl font-semibold mb-5">Hello there, and welcome to my place</p>
                     <h2 className='text-5xl font-semibold'>I&apos;m Emran Hossain</h2>
-                    <h2 className='text-5xl font-semibold text-[#E2DFD0]'>A full stact developer</h2>
+                    <h2 className='text-5xl font-semibold text-[#E2DFD0]'>
+                        <TypeAnimation
+                            sequence={[
+                                // Same substring at the start will only be typed out once, initially
+                                "I'm a frontend developer",
+                                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                "I'm a backend developer",
+                                1000,
+                                "I'm a MERN stack developer",
+                                1000,
+                                "I'm a devops enginere",
+                                1000
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            style={{ fontSize: '2em', display: 'inline-block' }}
+                            repeat={Infinity}
+                        />
+                    </h2>
                     {/* section to hold my social linkd */}
                     <section className='py-5'>
                         <ul className='flex gap-5'>
