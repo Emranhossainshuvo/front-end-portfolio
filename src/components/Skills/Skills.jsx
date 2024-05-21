@@ -1,8 +1,25 @@
+import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 const Skills = () => {
     return (
         <>
-         <h2>This is skills page</h2>   
+
+
+            {/* tab system to show skills in tab */}
+            <Tabs>
+                <TabList>
+                    <Tab>Title 1</Tab>
+                    <Tab>Title 2</Tab>
+                </TabList>
+
+                <TabPanel>
+                    <h2>Any content 1</h2>
+                </TabPanel>
+                <TabPanel>
+                    <h2>Any content 2</h2>
+                </TabPanel>
+            </Tabs>
         </>
     );
 };
