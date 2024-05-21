@@ -12,9 +12,9 @@ const Banner = () => {
 
                 <section className='w-1/2'>
                     {/* texts about me */}
-                    <p className="text-xl font-semibold mb-5">Hello there, and welcome to my place</p>
+                    <p className="mb-6 text-lg font-semibold text-shadow">Hello there, and welcome to my place</p>
                     <h2 className='text-5xl mb-3 font-semibold'>I&apos;m Emran Hossain</h2>
-                    <h2 className='text-3xl font-semibold text-[#E2DFD0]'>
+                    <h2 className='text-3xl mb-6 font-semibold text-[#FF0642]'>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
@@ -33,11 +33,12 @@ const Banner = () => {
                             repeat={Infinity}
                         />
                     </h2>
+                    <p className='mb-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur quod veritatis ab, voluptas enim. Repellendus in, asperiores, magnam rem nemo ipsa explicabo consequatur atque debitis architecto amet dolor? Illum.</p>
                     {/* section to hold my social linkd */}
                     <section className='py-5'>
                         <ul className='flex gap-5'>
-                            <li><button className='flex items-center gap-1'> <p>Github</p> <FaGithub /></button></li>
-                            <li><button className='flex items-center gap-1'> <p>Resume</p> <RxResume /></button></li>
+                            <li><button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'> <p>Github</p> <FaGithub /></button></li>
+                            <li><button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'> <p>Resume</p> <RxResume /></button></li>
                         </ul>
                     </section>
                 </section>

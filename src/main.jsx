@@ -6,7 +6,7 @@ import { router } from './Root/Root.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='bg-gradient-to-r from-[#2C3E50] to-[#000000]'>
+    <div className='bg-gradient-to-tr from-[#6B0935] via-[#120B2E] to-[#0A16A5]'>
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>,

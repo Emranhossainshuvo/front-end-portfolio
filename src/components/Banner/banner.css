@@ -3,3 +3,7 @@
     border-style: solid;
     border-image: linear-gradiant(to right, #06b6d4, #3b82f6)1;
 }
+
+.text-color{
+    text-shadow: 12px -24px 20px ;
+}
