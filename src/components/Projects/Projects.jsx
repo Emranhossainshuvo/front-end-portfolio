@@ -3,26 +3,26 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const Projects = () => {
     return (
         <>
-            {/* section to hold everything in this file  */}
-            <section className="mb-20 p-2">
-                {/* section to hold section title */}
-                <section className="mb-20 text-center">
-                    <section className="w-11/12">
+            {/* div to hold everything in this file  */}
+            <div className="mb-20 p-2">
+                {/* div to hold div title */}
+                <div className="mb-20 text-center">
+                    <div className="w-11/12">
                         <p className="mb-4">My Projects</p>
                         <h3 className="text-3xl font-semibold mb-6">Look at my recent works</h3>
                         <p>Lorem ipsum dolor sit amet.</p>
-                    </section>
-                </section>
+                    </div>
+                </div>
 
-                {/* section to hold project cards*/}
-                <section className="grid grid-cols-1 w-full md:grid-cols-2 gap-6">
+                {/* div to hold project cards*/}
+                <div className="grid grid-cols-1 w-full md:grid-cols-2 gap-6">
                     {/* project one */}
 
-                    <section className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://i.ibb.co/K6jk1Tc/2147770898.jpg" />
                         </a>
-                        <section className="p-5">
+                        <div className="p-5">
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Global atlas</h5>
                             </a>
@@ -35,14 +35,14 @@ const Projects = () => {
                             </span>
                             <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span>View project</span> <FaLongArrowAltRight /></a>
 
-                        </section>
-                    </section>
+                        </div>
+                    </div>
                     {/* project two */}
-                    <section className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://i.ibb.co/tQJyTpL/164212.jpg" />
                         </a>
-                        <section className="p-5">
+                        <div className="p-5">
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Ninja-learning</h5>
                             </a>
@@ -55,14 +55,14 @@ const Projects = () => {
                             </span>
                             <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span>View project</span> <FaLongArrowAltRight /></a>
 
-                        </section>
-                    </section>
+                        </div>
+                    </div>
                     {/* project three */}
-                    <section className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://i.ibb.co/mhtMm4s/125055.jpg" />
                         </a>
-                        <section className="p-5">
+                        <div className="p-5">
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Shongjukti</h5>
                             </a>
@@ -75,14 +75,14 @@ const Projects = () => {
                             </span>
                             <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span>View project</span> <FaLongArrowAltRight /></a>
 
-                        </section>
-                    </section>
+                        </div>
+                    </div>
                     {/* project four */}
-                    <section className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://i.ibb.co/tzCYHyJ/42439.jpg" />
                         </a>
-                        <section className="p-5">
+                        <div className="p-5">
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Fruid brush shop <span className="text-xs border-[1px] font-medium rounded-md p-1 border-black">Under construction</span></h5>
                             </a>
@@ -95,10 +95,10 @@ const Projects = () => {
                             </span>
                             <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span>View project</span> <FaLongArrowAltRight /></a>
 
-                        </section>
-                    </section>
-                </section>
-            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </>
     );

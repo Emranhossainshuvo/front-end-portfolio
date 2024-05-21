@@ -11,23 +11,23 @@ const Skills = () => {
 
     return (
         <>
-            {/* section to hold everything */}
-            <section className="mb-20 p-2">
-                {/* section for the title and description texts */}
-                <section className="flex justify-between mb-20 items-center">
-                    <section className="w-11/12">
-                        <p className="mb-4">My skills</p>
-                        <h3 className="text-3xl font-semibold">I love to learn new technologies and it become my habit</h3>
-                    </section>
-                    <section className="w-11/12">
+            {/* div to hold everything */}
+            <div className="mb-20">
+                {/* div for the title and description texts */}
+                <div className="md:flex md:justify-between mb-20 md:items-center">
+                    <div className="md:w-11/12">
+                        <p className="mb-4 text-center md:text-start">My skills</p>
+                        <h3 className="text-3xl font-semibold text-center md:text-start">I love to learn new technologies and it become my habit</h3>
+                    </div>
+                    <div className="md:w-11/12 text-center md:text-start">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis minus aspernatur cupiditate, corrupti minima tempora. Quod omnis atque voluptas quaerat tenetur, ducimus harum sint impedit debitis ex repellendus obcaecati aliquid?</p>
-                    </section>
-                </section>
+                    </div>
+                </div>
 
-                {/* section to hold skill classes */}
-                <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
+                {/* div to hold skill classes */}
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
                     {/* first skills */}
-                    <section className="bg-white text-black p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-blue-100 shadow-blue-300 shadow-sm rounded-full flex items-center justify-center">
@@ -38,9 +38,9 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
+                    </div>
                     {/* second skill  */}
-                    <section className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-white shadow-black shadow-sm rounded-full flex items-center justify-center">
@@ -51,9 +51,9 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
+                    </div>
                     {/* third skill  */}
-                    <section className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#C6E9BC] shadow-[#C6E9BC] shadow-sm rounded-full flex items-center justify-center">
@@ -64,9 +64,9 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
+                    </div>
                     {/* fourth skill  */}
-                    <section className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#F1C617] shadow-[#F1C617] shadow rounded-full flex items-center justify-center">
@@ -77,9 +77,9 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
+                    </div>
                     {/* fifth skill */}
-                    <section className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#0B9EE6] shadow-[#0B9EE6] shadow rounded-full flex items-center justify-center">
@@ -90,9 +90,9 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
+                    </div>
                     {/* sixth skill */}
-                    <section className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-white shadow-black shadow rounded-full flex items-center justify-center">
@@ -103,9 +103,9 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
+                    </div>
                     {/* seventh skill */}
-                    <section className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-black shadow-black shadow rounded-full flex items-center justify-center">
@@ -116,9 +116,9 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
+                    </div>
                     {/* eighth skill */}
-                    <section className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#001E2B] shadow-[#001E2B] shadow rounded-full flex items-center justify-center">
@@ -129,10 +129,10 @@ const Skills = () => {
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
-                    </section>
-                </section>
+                    </div>
+                </div>
 
-            </section>
+            </div>
         </>
     );
 };

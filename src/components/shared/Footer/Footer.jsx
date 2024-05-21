@@ -6,12 +6,12 @@ import moment from 'moment';
 const Footer = () => {
     return (
         <>
-            {/* section for holding everything in this page */}
-            <section>
-                <section>
+            {/* div for holding everything in this page */}
+            <div>
+                <div>
                     <p className='text-center'>&copy; {moment().format('YYYY')} - All rights reserved by Md. Emran Hossain</p>
-                </section>
-            </section>
+                </div>
+            </div>
         </>
     );
 };
