@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../shared/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import Skills from "../Skills/Skills";
+import Footer from "../shared/Footer/Footer";
 
 const Main = () => {
     return (
@@ -10,6 +11,7 @@ const Main = () => {
             <Banner></Banner>
             <Skills></Skills>
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
