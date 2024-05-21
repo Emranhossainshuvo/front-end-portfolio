@@ -1,3 +1,4 @@
+import { BiLogoMongodb } from "react-icons/bi";
 import { DiGit } from "react-icons/di";
 import {  FaNode, FaReact } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
@@ -121,11 +122,11 @@ const Skills = () => {
                     <section className="bg-white text-black   p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
-                            <div className="w-16 h-16 bg-[#EEA47FFF] shadow-[#EEA47FFF] shadow rounded-full flex items-center justify-center">
-                                <GrDeploy className="text-[#00539CFF] text-3xl" />
+                            <div className="w-16 h-16 bg-[#001E2B] shadow-[#001E2B] shadow rounded-full flex items-center justify-center">
+                                <BiLogoMongodb className="text-[#00ED64] text-3xl" />
                             </div>
                         </div>
-                        <h4 className="text-xl font-bold text-center mb-2">Deployment</h4>
+                        <h4 className="text-xl font-bold text-center mb-2">Mongodb</h4>
                         <p className="text-gray-600 text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
