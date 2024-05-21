@@ -10,21 +10,21 @@ const Banner = () => {
             <div className="w-full md:flex justify-between items-center h-[80vh]">
                 {/* extra two section for hold two section texts and picture  */}
 
-                <section>
+                <section className='w-1/2'>
                     {/* texts about me */}
                     <p className="text-xl font-semibold mb-5">Hello there, and welcome to my place</p>
-                    <h2 className='text-5xl font-semibold'>I&apos;m Emran Hossain</h2>
-                    <h2 className='text-5xl font-semibold text-[#E2DFD0]'>
+                    <h2 className='text-5xl mb-3 font-semibold'>I&apos;m Emran Hossain</h2>
+                    <h2 className='text-3xl font-semibold text-[#E2DFD0]'>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                "I'm a frontend developer",
+                                "Frontend expert",
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                "I'm a backend developer",
+                                "Mern developer",
                                 1000,
-                                "I'm a MERN stack developer",
+                                "backend specialist",
                                 1000,
-                                "I'm a devops enginere",
+                                "Deployment expert",
                                 1000
                             ]}
                             wrapper="span"
