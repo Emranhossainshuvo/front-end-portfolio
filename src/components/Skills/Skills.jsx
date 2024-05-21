@@ -1,11 +1,12 @@
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import ReUsableSectionTitle from '../shared/ReUsableSectionTitle/ReUsableSectionTitle';
 
 const Skills = () => {
     return (
         <>
 
-
+            <ReUsableSectionTitle></ReUsableSectionTitle>
             {/* tab system to show skills in tab */}
             <Tabs>
                 <TabList>
