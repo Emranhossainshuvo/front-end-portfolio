@@ -1,0 +1,5 @@
+.border-gradiant{
+    border-width: 8px;
+    border-style: solid;
+    border-image: linear-gradiant(to right, #06b6d4, #3b82f6)1;
+}
