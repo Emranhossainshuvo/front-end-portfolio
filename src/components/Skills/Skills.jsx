@@ -12,7 +12,7 @@ const Skills = () => {
     return (
         <>
             {/* div to hold everything */}
-            <div className="mb-20">
+            <div className="mb-20 p-2">
                 {/* div for the title and description texts */}
                 <div className="md:flex md:justify-between mb-20 md:items-center">
                     <div className="md:w-11/12">
@@ -27,7 +27,7 @@ const Skills = () => {
                 {/* div to hold skill classes */}
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
                     {/* first skills */}
-                    <div className="bg-white text-black p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-blue-100 shadow-blue-300 shadow-sm rounded-full flex items-center justify-center">
@@ -35,12 +35,12 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">ReactJS</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className=" text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
                     {/* second skill  */}
-                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-white shadow-black shadow-sm rounded-full flex items-center justify-center">
@@ -48,12 +48,12 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">Tailwind CSS</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className="text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
                     {/* third skill  */}
-                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#C6E9BC] shadow-[#C6E9BC] shadow-sm rounded-full flex items-center justify-center">
@@ -61,12 +61,12 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">NodeJS</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className="  text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
                     {/* fourth skill  */}
-                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#F1C617] shadow-[#F1C617] shadow rounded-full flex items-center justify-center">
@@ -74,12 +74,12 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">ExpressJS</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className="  text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
                     {/* fifth skill */}
-                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#0B9EE6] shadow-[#0B9EE6] shadow rounded-full flex items-center justify-center">
@@ -87,12 +87,12 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">Firebase</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className="  text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
                     {/* sixth skill */}
-                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-white shadow-black shadow rounded-full flex items-center justify-center">
@@ -100,12 +100,12 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">Git</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className="  text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
                     {/* seventh skill */}
-                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-black shadow-black shadow rounded-full flex items-center justify-center">
@@ -113,12 +113,12 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">JWT - JSON Web Token</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className="  text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
                     {/* eighth skill */}
-                    <div className="bg-white text-black   p-6 rounded-md shadow-lg">
+                    <div className="bg-white hover:bg-cyan-800 delay-200 hover:text-white text-black  p-6 rounded-md shadow-lg">
 
                         <div className="flex items-center justify-center mb-4">
                             <div className="w-16 h-16 bg-[#001E2B] shadow-[#001E2B] shadow rounded-full flex items-center justify-center">
@@ -126,7 +126,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">Mongodb</h4>
-                        <p className="text-gray-600 text-center">
+                        <p className="  text-center">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
                         </p>
                     </div>
