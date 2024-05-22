@@ -37,8 +37,17 @@ const Banner = () => {
                     {/* div to hold my social linkd */}
                     <div className='py-5 mx-auto w-full'>
                         <ul className='flex gap-5'>
-                            <li><button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'> <p>Github</p> <FaGithub /></button></li>
-                            <li><button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'> <p>Resume</p> <RxResume /></button></li>
+
+                            <li><a target='_blank' href="https://github.com/Emranhossainshuvo"><button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'> <p>Github</p> <FaGithub /></button></a></li>
+
+                            <li>
+                                <a target='_blank' href="https://drive.google.com/file/d/1be0KqyAaNZQh7Pg_v00DXuxIVsRDiw70/view?usp=sharing">
+                                    <button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'>
+                                        <p>Resume</p>
+                                        <RxResume />
+                                    </button>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
