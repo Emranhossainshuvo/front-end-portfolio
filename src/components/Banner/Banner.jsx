@@ -17,19 +17,18 @@ const Banner= () => {
                     <h2 className='text-3xl mb-3 text-center md:text-start font-semibold text-[#FF0642]'>
                         <TypeAnimation
                             sequence={[
-                                // Same substring at the start will only be typed out once, initially
                                 "Frontend expert",
-                                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                                500,
                                 "Mern developer",
-                                1000,
+                                500,
                                 "backend specialist",
-                                1000,
+                                500,
                                 "Deployment expert",
-                                1000
+                                500
                             ]}
                             wrapper="span"
                             speed={50}
-                            style={{ fontSize: '2em', display: 'inline-block' }}
+                            style={{ fontSize: '2em', padding: '2px',  display: 'inline-block' }}
                             repeat={Infinity}
                         />
                     </h2>
