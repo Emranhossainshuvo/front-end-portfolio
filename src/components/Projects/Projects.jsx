@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <>
             {/* div to hold everything in this file  */}
-            <div className="mb-20 p-2">
+            <div className="mt-5 p-2">
                 {/* div to hold div title */}
                 <div className="mb-20 text-center">
                     <div className="w-11/12">

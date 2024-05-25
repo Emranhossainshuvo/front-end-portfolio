@@ -3,18 +3,18 @@ import './banner.css'
 import { RxResume } from 'react-icons/rx';
 import { TypeAnimation } from 'react-type-animation';
 
-const Banner = () => {
+const Banner= () => {
     return (
         <>
             {/* div for hold everything in this page */}
-            <div className="w-full md:flex p-2 justify-between items-center h-[80vh]">
+            <div className="w-full md:flex p-2 mt-5 justify-between items-center h-auto">
                 {/* extra two div for hold two div texts and picture  */}
 
                 <div className='md:w-1/2'>
                     {/* texts about me */}
-                    <p className="mb-6 text-center md:text-start text-lg font-semibold text-shadow">Hello there, and welcome to my place</p>
+                    <p className="mb-3 text-center md:text-start text-lg font-semibold text-shadow">Hello there, and welcome to my place</p>
                     <h2 className='text-5xl text-center md:text-start mb-3 font-semibold'>I&apos;m Emran Hossain</h2>
-                    <h2 className='text-3xl mb-6 text-center md:text-start font-semibold text-[#FF0642]'>
+                    <h2 className='text-3xl mb-3 text-center md:text-start font-semibold text-[#FF0642]'>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially

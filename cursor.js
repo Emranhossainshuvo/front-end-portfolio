@@ -3,7 +3,7 @@ const cursorOutline = document.querySelector("[data-cursor-outline]");
 
 window.addEventListener("mousemove", function(e){
 
-    const posX = e.clientX;
+    const posX  = e.clientX;
     const posY = e.clientY;
 
     cursorDot.style.left = `${posX}px`;
