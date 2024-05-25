@@ -15,7 +15,7 @@ const Contacts = () => {
                     </div>
                 </section>
                 {/* section to hold the links and the image */}
-                <section className="flex justify-center items-center">
+                <section className="flex justify-center gap-5 items-center">
                     {/* section to hold the social links */}
                     <section>
                         <ul>
@@ -41,9 +41,12 @@ const Contacts = () => {
                     </section>
                     {/* section to hold the form */}
                     <section>
-                        <form className="grid grid-cols-1 gap-5">
+                        <form className="grid bg-[#2C2F34] p-5 grid-cols-1 gap-5">
+                            <p>Name</p>
                             <input type="text" placeholder="Name" />
+                            <p>Email</p>
                             <input type="email" placeholder="Email" />
+                            <p>Your messege</p>
                             <textarea name="Messege" placeholder="Messege" id="">
 
                             </textarea>
