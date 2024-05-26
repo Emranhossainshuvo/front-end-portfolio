@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
         <>
             {/* main div to hold everything in the navbar file */}
-            <div className="flex justify-between pt-7 mt-5 p-2 items-center">
+            <div className="flex justify-between pt-5 items-center">
                 {/* div for left side element such as name and icon */}
                 <div>
                     <h3 className="text-2xl font-semibold"><span className="text-[#FF0642]">  Emran</span> Hossain</h3>

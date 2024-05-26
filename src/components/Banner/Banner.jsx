@@ -3,7 +3,7 @@ import './banner.css'
 import { RxResume } from 'react-icons/rx';
 import { TypeAnimation } from 'react-type-animation';
 
-const Banner= () => {
+const Banner = () => {
     return (
         <>
             {/* div for hold everything in this page */}
@@ -18,26 +18,35 @@ const Banner= () => {
                         <TypeAnimation
                             sequence={[
                                 "Frontend expert",
-                                500,
+                                300,
                                 "Mern developer",
-                                500,
+                                300,
                                 "backend specialist",
-                                500,
+                                300,
                                 "Deployment expert",
-                                500
+                                300
                             ]}
                             wrapper="span"
                             speed={50}
-                            style={{ fontSize: '2em', padding: '2px',  display: 'inline-block' }}
+                            style={{ fontSize: '2em', padding: '2px', display: 'inline-block' }}
                             repeat={Infinity}
                         />
                     </h2>
                     <p className='mb-6 text-center md:text-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur quod veritatis ab, voluptas enim. Repellendus in, asperiores, magnam rem nemo ipsa explicabo consequatur atque debitis architecto amet dolor? Illum.</p>
                     {/* div to hold my social linkd */}
-                    <div className='py-5 mx-auto w-full'>
+                    <div className=''>
                         <ul className='flex gap-5'>
 
-                            <li><a target='_blank' href="https://github.com/Emranhossainshuvo"><button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'> <p>Github</p> <FaGithub /></button></a></li>
+                            <li>
+                                <a target='_blank' href="https://github.com/Emranhossainshuvo">
+                                    <button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'>
+                                        <p>
+                                            Github
+                                        </p>
+                                        <FaGithub />
+                                    </button>
+                                </a>
+                            </li>
 
                             <li>
                                 <a target='_blank' href="https://drive.google.com/file/d/1be0KqyAaNZQh7Pg_v00DXuxIVsRDiw70/view?usp=sharing">
