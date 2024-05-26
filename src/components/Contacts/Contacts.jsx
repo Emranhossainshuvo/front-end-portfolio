@@ -4,7 +4,7 @@ const Contacts = () => {
     return (
         <>
             {/*section that will hold everything in this page  */}
-            <section className="mt-5">
+            <section className="mt-5 mb-5">
                 {/* section to hold the component title */}
                 <section>
                     <div className="mb-20 text-center">
@@ -18,22 +18,22 @@ const Contacts = () => {
                 <section className="md:flex md:flex-row-reverse md:justify-around md:items-center">
                     {/* section to hold the social links */}
                     <section className="w-full">
-                        <ul className="md:px-28 bg-white md:mx-5 h-full ">
-                            <li className="flex justify-start items-center">
+                        <ul className="md:px-28 rounded-xl md:mx-5 md:h-full ">
+                            <li className="flex justify-start gap-2 mb-2 items-center">
                                 <FaGithub />
                                 <span>
                                     Let&apos;s get connected with Github
                                 </span>
                             </li>
-                            <li className="flex justify-start items-center">
+                            <li className="flex justify-start gap-2 mb-2 items-center">
                                 <FaTwitter />
                                 Stay together at Twitter
                             </li>
-                            <li className="flex justify-start items-center">
+                            <li className="flex justify-start gap-2 mb-2 items-center">
                                 <FaLinkedin />
                                 Connect me on Linkedin
                             </li>
-                            <li className="flex justify-start items-center">
+                            <li className="flex justify-start gap-2 mb-2 items-center">
                                 <FaMedium />
                                 connect on medium.
                             </li>
