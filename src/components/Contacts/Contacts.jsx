@@ -15,10 +15,10 @@ const Contacts = () => {
                     </div>
                 </section>
                 {/* section to hold the links and the image */}
-                <section className="flex justify-center gap-5 items-center">
+                <section className="md:flex md:flex-row-reverse md:justify-around md:items-center">
                     {/* section to hold the social links */}
-                    <section>
-                        <ul>
+                    <section className="w-full">
+                        <ul className="md:px-28 bg-white md:mx-5 h-full ">
                             <li className="flex justify-start items-center">
                                 <FaGithub />
                                 <span>
@@ -40,14 +40,14 @@ const Contacts = () => {
                         </ul>
                     </section>
                     {/* section to hold the form */}
-                    <section>
-                        <form className="grid bg-[#2C2F34] p-5 grid-cols-1 gap-5">
+                    <section className="w-full">
+                        <form className="grid bg-transparent w-full grid-cols-1">
                             <p>Name</p>
-                            <input type="text" placeholder="Name" />
+                            <input type="text" className="p-2 text-black bg-white rounded-md" placeholder="Name" />
                             <p>Email</p>
-                            <input type="email" placeholder="Email" />
+                            <input type="email" className="p-2 text-black bg-white rounded-md" placeholder="Email" />
                             <p>Your messege</p>
-                            <textarea name="Messege" placeholder="Messege" id="">
+                            <textarea name="Messege" className="p-2 text-black bg-white rounded-md" placeholder="Messege" id="">
 
                             </textarea>
                         </form>
