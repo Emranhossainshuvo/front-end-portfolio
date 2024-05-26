@@ -18,8 +18,8 @@ const Contacts = () => {
                 <section className="md:flex md:flex-row-reverse md:justify-around md:items-center">
                     {/* section to hold the social links */}
                     <section className="w-full">
-                        <ul className="md:px-28 rounded-xl md:mx-5 md:h-full ">
-                            <li className="flex justify-start gap-2 mb-2 items-center">
+                        <ul className="md:px-28 md:max-w-full md:mx-auto max-w-80 mx-auto ">
+                            <li className="flex justify-start gap-2 mx-auto mb-2 items-center">
                                 <FaGithub />
                                 <span>
                                     Let&apos;s get connected with Github
@@ -40,7 +40,7 @@ const Contacts = () => {
                         </ul>
                     </section>
                     {/* section to hold the form */}
-                    <section className="w-full">
+                    <section className="w-full p-2">
                         <form className="grid bg-transparent w-full grid-cols-1">
                             <p>Name</p>
                             <input type="text" className="p-2 text-black bg-white rounded-md" placeholder="Name" />
