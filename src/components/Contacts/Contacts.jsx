@@ -19,24 +19,32 @@ const Contacts = () => {
                     {/* section to hold the social links */}
                     <section className="w-full">
                         <ul className="md:px-28 md:max-w-full md:mx-auto max-w-80 mx-auto ">
-                            <li className="flex justify-start gap-2 mx-auto mb-2 items-center">
-                                <FaGithub />
-                                <span>
-                                    Let&apos;s get connected with Github
-                                </span>
-                            </li>
-                            <li className="flex justify-start gap-2 mb-2 items-center">
-                                <FaTwitter />
-                                Stay together at Twitter
-                            </li>
-                            <li className="flex justify-start gap-2 mb-2 items-center">
-                                <FaLinkedin />
-                                Connect me on Linkedin
-                            </li>
-                            <li className="flex justify-start gap-2 mb-2 items-center">
-                                <FaMedium />
-                                connect on medium.
-                            </li>
+                            <a target="_blank" href="https://github.com/Emranhossainshuvo">
+                                <li className="flex hover:text-blue-500 justify-start gap-2 mx-auto mb-2 items-center">
+                                    <FaGithub />
+                                    <span>
+                                        Let&apos;s get connected with Github
+                                    </span>
+                                </li>
+                            </a>
+                            <a target="_blank" href="">
+                                <li className="flex hover:text-blue-500 justify-start gap-2 mb-2 items-center">
+                                    <FaTwitter />
+                                    Stay together at Twitter
+                                </li>
+                            </a>
+                            <a target="_blank" href="https://www.linkedin.com/in/md-emran-hossain-shuvo/">
+                                <li className="flex hover:text-blue-500 justify-start gap-2 mb-2 items-center">
+                                    <FaLinkedin />
+                                    Connect me on Linkedin
+                                </li>
+                            </a>
+                            <a target="_blank" href="">
+                                <li className="flex hover:text-blue-500 justify-start gap-2 mb-2 items-center">
+                                    <FaMedium />
+                                    connect on medium.
+                                </li>
+                            </a>
                         </ul>
                     </section>
                     {/* section to hold the form */}
