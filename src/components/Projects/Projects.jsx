@@ -31,7 +31,7 @@ const Projects = () => {
                                 <span className="bg-[#1B60B0] p-2 font-semibold text-xs rounded-md text-white">TailwindCSS</span>
                                 <span className="bg-[#C6E9BC] p-2 font-semibold text-xs rounded-md">Node</span>
                             </span>
-                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/DevelopersZone06/revive-client"><span>View project</span> <FaLongArrowAltRight /></a>
+                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/DevelopersZone06/revive-client"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                                 <span className="bg-[#F1C617] p-2 font-semibold text-xs rounded-md">Express</span>
                                 <span className="bg-[#0B9EE6] p-2 font-semibold text-xs rounded-md">Firebase</span>
                             </span>
-                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/CareNow"><span>View project</span> <FaLongArrowAltRight /></a>
+                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/CareNow"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                                 <span className="bg-[#001E2B] p-2 text-white font-semibold text-xs rounded-md">Mongodb</span>
                                 <span className="bg-[#DBEAFE] p-2 font-semibold text-xs rounded-md">React</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span>View project</span> <FaLongArrowAltRight /></a>
+                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const Projects = () => {
                                 <span className="bg-[#D740FF] p-2 font-semibold text-xs rounded-md">JWT</span>
                                 <span className="bg-[#377CC8] p-2 font-semibold text-xs rounded-md">Typescript</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span>View project</span> <FaLongArrowAltRight /></a>
+                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
