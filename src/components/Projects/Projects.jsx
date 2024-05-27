@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="grid grid-cols-1 w-full md:grid-cols-2 gap-6">
                     {/* project one */}
 
-                    <div className="  bg-[#FFFFFF]  border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className=" cursor-pointer bg-[#FFFFFF]  border-b text-black border-gray-200 rounded-lg shadow">
                             <img className="rounded-t-lg" src="https://i.ibb.co/XV7GfJV/2150165162.jpg" />
                         <div className="p-5">
                             <span>
@@ -31,12 +31,12 @@ const Projects = () => {
                                 <span className="bg-[#1B60B0] p-2 font-semibold text-xs rounded-md text-white">TailwindCSS</span>
                                 <span className="bg-[#C6E9BC] p-2 font-semibold text-xs rounded-md">Node</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/DevelopersZone06/revive-client"><span>View project</span> <FaLongArrowAltRight /></a>
+                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/DevelopersZone06/revive-client"><span>View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
                     {/* project two */}
-                    <div className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className=" cursor-pointer  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://i.ibb.co/zNpgX47/6062.jpg" />
                         </a>
@@ -51,12 +51,12 @@ const Projects = () => {
                                 <span className="bg-[#F1C617] p-2 font-semibold text-xs rounded-md">Express</span>
                                 <span className="bg-[#0B9EE6] p-2 font-semibold text-xs rounded-md">Firebase</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/CareNow"><span>View project</span> <FaLongArrowAltRight /></a>
+                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/CareNow"><span>View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
                     {/* project three */}
-                    <div className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className=" cursor-pointer bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://i.ibb.co/mhtMm4s/125055.jpg" />
                         </a>
@@ -76,7 +76,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* project four */}
-                    <div className="  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
+                    <div className=" cursor-pointer bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
                             <img className="rounded-t-lg" src="https://i.ibb.co/tzCYHyJ/42439.jpg" />
                         </a>
