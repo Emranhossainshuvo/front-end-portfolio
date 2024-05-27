@@ -18,13 +18,13 @@ const Banner = () => {
                         <TypeAnimation
                             sequence={[
                                 "Frontend expert",
-                                300,
+                                1000,
                                 "Mern developer",
-                                300,
+                                1000,
                                 "backend specialist",
-                                300,
+                                1000,
                                 "Deployment expert",
-                                300
+                                1000
                             ]}
                             wrapper="span"
                             speed={50}
