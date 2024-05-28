@@ -20,7 +20,7 @@ const Skills = () => {
                         <h3 className="text-3xl font-semibold text-center md:text-start">I love to learn new technologies and it become my habit</h3>
                     </div>
                     <div className="md:w-11/12 text-center md:text-start">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis minus aspernatur cupiditate, corrupti minima tempora. Quod omnis atque voluptas quaerat tenetur, ducimus harum sint impedit debitis ex repellendus obcaecati aliquid?</p>
+                        <p>I love to read documentations of various technologies then I ipmlement these technologies to my existing projects. Sometimes it makes some problems like version related or made my application slower but most of the time it work properly. </p>
                     </div>
                 </div>
 

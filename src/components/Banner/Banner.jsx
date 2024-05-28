@@ -32,7 +32,7 @@ const Banner = () => {
                             repeat={Infinity}
                         />
                     </h2>
-                    <p className='mb-6 text-center md:text-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam pariatur quod veritatis ab, voluptas enim. Repellendus in, asperiores, magnam rem nemo ipsa explicabo consequatur atque debitis architecto amet dolor? Illum.</p>
+                    <p className='mb-6 text-center md:text-start'>I am a junior web developer I love to bring life in web application. I love working with technologies and learning new technologies. </p>
                     {/* div to hold my social linkd */}
                     <div className=''>
                         <ul className='flex gap-5'>
