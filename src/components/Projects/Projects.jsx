@@ -10,7 +10,6 @@ const Projects = () => {
                     <div className="w-11/12">
                         <p className="mb-4">My Projects</p>
                         <h3 className="text-3xl font-semibold mb-6">Look at my recent works</h3>
-                        <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
 
