@@ -21,10 +21,10 @@ const Navbar = () => {
 
                 <div className={`menu-links absolute md:static top-0 right-5 md:flex ${menuOpen ? 'block' : 'hidden'} text-lg font-medium`}>
                     <ul className="md:flex items-center gap-5">
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li>Skills</li>
-                        <li>Contact</li>
+                        <li className="hover:text-[#FF0642]">About</li>
+                        <li className="hover:text-[#FF0642]">Projects</li>
+                        <li className="hover:text-[#FF0642]">Skills</li>
+                        <li className="hover:text-[#FF0642]">Contact</li>
                     </ul>
                 </div>
                 <div className="menu-icon md:hidden" onClick={handleToggle}>
