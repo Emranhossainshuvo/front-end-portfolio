@@ -25,7 +25,7 @@ const Navbar = () => {
                         <li className="hover:text-[#FF0642]">Projects</li>
                         <li className="hover:text-[#FF0642]">Skills</li>
                         <li className="hover:text-[#FF0642]">Contact</li>
-                    </ul>
+                        </ul>
                 </div>
                 <div className="menu-icon md:hidden" onClick={handleToggle}>
                     {menuOpen ? <FaTimes /> : <FaBars />}

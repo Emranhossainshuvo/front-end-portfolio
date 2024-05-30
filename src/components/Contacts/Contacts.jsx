@@ -58,6 +58,7 @@ const Contacts = () => {
                             <textarea name="Messege" className="p-2 text-black bg-white rounded-md" placeholder="Messege" id="">
 
                             </textarea>
+                            <button className="w-[20%] right-0">Submit</button>
                         </form>
                     </section>
                 </section>
