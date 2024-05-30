@@ -1,6 +1,6 @@
 import { BiLogoMongodb } from "react-icons/bi";
 import { DiGit } from "react-icons/di";
-import {  FaNode, FaReact } from "react-icons/fa";
+import { FaNode, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiFirebase, SiJsonwebtokens } from "react-icons/si";
 
@@ -36,7 +36,7 @@ const Skills = () => {
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">ReactJS</h4>
                         <p className=" text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
+                             After learning the basics of React I start upgrading my ability in React.
                         </p>
                     </div>
                     {/* second skill  */}
@@ -49,7 +49,7 @@ const Skills = () => {
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">Tailwind CSS</h4>
                         <p className="text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
+                            TailwindCSS help me do a lot things in a short amount of time like grid, animation, responsive layouts etc.
                         </p>
                     </div>
                     {/* third skill  */}
@@ -62,7 +62,7 @@ const Skills = () => {
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">NodeJS</h4>
                         <p className="  text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
+                            I have basic expertise in Node.js, a powerful JavaScript runtime built on Chrome&apos;s V8 engine.
                         </p>
                     </div>
                     {/* fourth skill  */}
@@ -75,7 +75,7 @@ const Skills = () => {
                         </div>
                         <h4 className="text-xl font-bold text-center mb-2">ExpressJS</h4>
                         <p className="  text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nesciunt.
+                            I am proficient in ExpressJS, a minimal and flexible Node.js web application framework
                         </p>
                     </div>
                     {/* fifth skill */}
