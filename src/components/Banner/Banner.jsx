@@ -10,7 +10,7 @@ const Banner = () => {
             <div className="w-full md:flex p-2 mt-5 justify-between items-center h-auto">
                 {/* extra two div for hold two div texts and picture  */}
 
-                <div className='md:w-1/2'>
+                <div data-aos="fade-up-right" className='md:w-1/2'>
                     {/* texts about me */}
                     <p className="mb-3 text-center md:text-start text-lg font-semibold text-shadow">Hello there, and welcome to my place</p>
                     <h2 className='text-5xl text-center md:text-start mb-3 font-semibold'>I&apos;m Emran Hossain</h2>
@@ -59,7 +59,7 @@ const Banner = () => {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up-left">
                     <img className="rounded-md" src="https://i.ibb.co/3rhzz4M/IMG-20231209-080753-removebg-4-removebg-preview.png" alt="" />
                 </div>
             </div >

@@ -1,5 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import 'aos/dist/aos.css';
 import { FaBars, FaTimes } from "react-icons/fa";
+import Aos from "aos";
 
 const Navbar = () => {
 
@@ -10,16 +12,21 @@ const Navbar = () => {
     };
 
 
+    useEffect(() => {
+        Aos.init();
+    });
+
+
     return (
         <>
             {/* main div to hold everything in the navbar file */}
             <div className="flex justify-between pt-5 items-center">
                 {/* div for left side element such as name and icon */}
-                <div>
+                <div data-aos="fade-right">
                     <h3 className="text-2xl font-semibold"><span className="text-[#FF0642]">  Emran</span> Hossain</h3>
                 </div>
 
-                <div className={`menu-links absolute md:static top-0 right-5 md:flex ${menuOpen ? 'block' : 'hidden'} text-lg font-medium`}>
+                <div data-aos="fade-left" className={`menu-links absolute md:static top-0 right-5 md:flex ${menuOpen ? 'block' : 'hidden'} text-lg font-medium`}>
                     <ul className="md:flex items-center gap-5">
                         <li className="hover:text-[#FF0642]">About</li>
                         <li className="hover:text-[#FF0642]">Projects</li>
