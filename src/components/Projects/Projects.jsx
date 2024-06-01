@@ -18,7 +18,7 @@ const Projects = () => {
                     {/* project one */}
 
                     <div className=" cursor-pointer bg-[#FFFFFF]  border-b text-black border-gray-200 rounded-lg shadow">
-                            <img className="rounded-t-lg" src="https://i.ibb.co/XV7GfJV/2150165162.jpg" />
+                        <img className="rounded-t-lg" src="https://i.ibb.co/XV7GfJV/2150165162.jpg" />
                         <div className="p-5">
                             <span>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Revive<span className="text-xs ms-2 border-[1px] font-medium rounded-md p-1 border-black">Team project</span></h5>
@@ -70,7 +70,7 @@ const Projects = () => {
                                 <span className="bg-[#001E2B] p-2 text-white font-semibold text-xs rounded-md">Mongodb</span>
                                 <span className="bg-[#DBEAFE] p-2 font-semibold text-xs rounded-md">React</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
+                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/Shongjukti"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
@@ -90,7 +90,7 @@ const Projects = () => {
                                 <span className="bg-[#D740FF] p-2 font-semibold text-xs rounded-md">JWT</span>
                                 <span className="bg-[#377CC8] p-2 font-semibold text-xs rounded-md">Typescript</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="www.google.com"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
+                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/folmul"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
 
                         </div>
                     </div>
