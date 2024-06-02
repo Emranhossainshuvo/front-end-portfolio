@@ -1,6 +1,33 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Swal from 'sweetalert2';
+
 
 const Projects = () => {
+
+    const handleViewProject = (projectUrl) => {
+        Swal.fire({
+            title: "<strong>Project Information</strong>",
+            icon: "info",
+            html: `
+                You can use <b>bold text</b>,
+                <a href="${projectUrl}" target="_blank">Visit Project</a>,
+                and other HTML tags
+            `,
+            showCloseButton: true,
+            showCancelButton: true,
+            focusConfirm: false,
+            confirmButtonText: `
+                <i class="fa fa-thumbs-up"></i> Great!
+            `,
+            confirmButtonAriaLabel: "Thumbs up, great!",
+            cancelButtonText: `
+                <i class="fa fa-thumbs-down"></i>
+            `,
+            cancelButtonAriaLabel: "Thumbs down"
+        });
+    }
+
+
     return (
         <>
             {/* div to hold everything in this file  */}
