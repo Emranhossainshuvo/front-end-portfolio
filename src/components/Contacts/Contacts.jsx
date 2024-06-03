@@ -58,7 +58,10 @@ const Contacts = () => {
                             <textarea name="Messege" className="p-2 text-black bg-white rounded-md" placeholder="Messege" id="">
 
                             </textarea>
-                            <button className="w-[20%] right-0">Submit</button>
+                            <section className=" flex justify-center">
+                            <button className="w-[40%] mt-4 rounded-md py-2 bg-white text-black right-0">Submit</button>
+
+                            </section>
                         </form>
                     </section>
                 </section>
