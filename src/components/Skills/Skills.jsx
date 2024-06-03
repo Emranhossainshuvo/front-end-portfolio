@@ -12,7 +12,7 @@ const Skills = () => {
     return (
         <>
             {/* div to hold everything */}
-            <div className="mt-5 p-2">
+            <div id="skills" className="mt-5 p-2">
                 {/* div for the title and description texts */}
                 <div className="md:flex md:justify-between mb-20 md:items-center">
                     <div className="md:w-11/12">

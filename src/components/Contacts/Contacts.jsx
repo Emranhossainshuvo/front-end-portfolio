@@ -4,7 +4,7 @@ const Contacts = () => {
     return (
         <>
             {/*section that will hold everything in this page  */}
-            <section className="mt-5 mb-5">
+            <section id="contact" className="mt-5 mb-5">
                 {/* section to hold the component title */}
                 <section>
                     <div className="mb-20 text-center">
