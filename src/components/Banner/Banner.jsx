@@ -34,7 +34,7 @@ const Banner = () => {
                     </h2>
                     <p className='mb-6 text-center md:text-start'>I am a junior web developer I love to bring life in web application. I love working with technologies and learning new technologies. </p>
                     {/* div to hold my social linkd */}
-                    <div className=''>
+                    <div className='flex justify-center md:flex md:justify-start mb-7'>
                         <ul className='flex gap-5'>
 
                             <li>
