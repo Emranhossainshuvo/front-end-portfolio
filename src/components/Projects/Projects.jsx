@@ -1,31 +1,7 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
-import Swal from 'sweetalert2';
 
 
 const Projects = () => {
-
-    const handleViewProject = (projectUrl) => {
-        Swal.fire({
-            title: "<strong>Project Information</strong>",
-            icon: "info",
-            html: `
-                You can use <b>bold text</b>,
-                <a href="${projectUrl}" target="_blank">Visit Project</a>,
-                and other HTML tags
-            `,
-            showCloseButton: true,
-            showCancelButton: true,
-            focusConfirm: false,
-            confirmButtonText: `
-                <i class="fa fa-thumbs-up"></i> Great!
-            `,
-            confirmButtonAriaLabel: "Thumbs up, great!",
-            cancelButtonText: `
-                <i class="fa fa-thumbs-down"></i>
-            `,
-            cancelButtonAriaLabel: "Thumbs down"
-        });
-    }
 
 
     return (
@@ -57,7 +33,10 @@ const Projects = () => {
                                 <span className="bg-[#1B60B0] p-2 font-semibold text-xs rounded-md text-white">TailwindCSS</span>
                                 <span className="bg-[#C6E9BC] p-2 font-semibold text-xs rounded-md">Node</span>
                             </span>
-                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/DevelopersZone06/revive-client"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
+                            <section className="flex justify-between">
+                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/DevelopersZone06/revive-client"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
+                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://revive-health.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
+                            </section>
 
                         </div>
                     </div>
@@ -77,7 +56,10 @@ const Projects = () => {
                                 <span className="bg-[#F1C617] p-2 font-semibold text-xs rounded-md">Express</span>
                                 <span className="bg-[#0B9EE6] p-2 font-semibold text-xs rounded-md">Firebase</span>
                             </span>
-                            <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/CareNow"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
+                            <section className="flex justify-between">
+                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/CareNow"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
+                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://care-now.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
+                            </section>
 
                         </div>
                     </div>
@@ -97,7 +79,10 @@ const Projects = () => {
                                 <span className="bg-[#001E2B] p-2 text-white font-semibold text-xs rounded-md">Mongodb</span>
                                 <span className="bg-[#DBEAFE] p-2 font-semibold text-xs rounded-md">React</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/Shongjukti"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
+                            <section className="flex justify-between">
+                                <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/Shongjukti"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
+                                <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://shongjukti.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
+                            </section>
 
                         </div>
                     </div>
@@ -117,7 +102,10 @@ const Projects = () => {
                                 <span className="bg-[#D740FF] p-2 font-semibold text-xs rounded-md">JWT</span>
                                 <span className="bg-[#377CC8] p-2 font-semibold text-xs rounded-md">Typescript</span>
                             </span>
-                            <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/folmul"><span className="hover:font-bold ">View project</span> <FaLongArrowAltRight /></a>
+                            <section className="flex justify-between">
+                                <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/bagMart"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
+                                <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://bagmart.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
+                            </section>
 
                         </div>
                     </div>
