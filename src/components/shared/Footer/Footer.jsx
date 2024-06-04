@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
             {/* div for holding everything in this page */}
-            <div>
+            <div className='mt-10'>
                 <div>
                     <p className='text-center'>&copy; {moment().format('YYYY')} - All rights reserved by Md. Emran Hossain</p>
                 </div>
