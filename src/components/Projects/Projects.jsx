@@ -26,7 +26,7 @@ const Projects = () => {
                             <span>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Revive<span className="text-xs ms-2 border-[1px] font-medium rounded-md p-1 border-black">Team project</span></h5>
                             </span>
-                            <p className="mb-3 font-normal ">Me, and my friends created a Health and Fitness application called Revive. we spent countless hours to develop this. Defenetly check <br /> it out.</p>
+                            <p className="mb-3 font-normal ">Me, and my friends created a Health and Fitness application called Revive. we spent countless hours to develop this. Defenetly check it out.</p>
                             {/* span to hold tags */}
                             <span className="flex gap-1">
                                 <span className="bg-[#DBEAFE] p-2 font-semibold text-xs rounded-md">React</span>
@@ -49,7 +49,7 @@ const Projects = () => {
                             <a>
                                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">CareNow</h5>
                             </a>
-                            <p className="mb-3 font-normal ">It is an applicatin where people can get dental services online. </p>
+                            <p className="mb-3 font-normal ">CareNow is an online dental clinic where people can get online dental advice and treatment bia internet.</p>
                             {/* span to hold tags */}
                             <span className="flex gap-1">
                                 <span className="bg-[#001E2B] p-2 text-white font-semibold text-xs rounded-md">Mongodb</span>
