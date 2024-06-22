@@ -57,8 +57,8 @@ const Projects = () => {
                                 <span className="bg-[#0B9EE6] p-2 font-semibold text-xs rounded-md">Firebase</span>
                             </span>
                             <section className="flex justify-between">
-                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/CareNow"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
-                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://care-now.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
+                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/react-news-portal"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
+                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://react-news-tsbe.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
                             </section>
 
                         </div>
