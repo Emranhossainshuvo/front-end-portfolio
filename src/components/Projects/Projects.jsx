@@ -43,13 +43,13 @@ const Projects = () => {
                     {/* project two */}
                     <div className=" cursor-pointer  bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
-                            <img className="rounded-t-lg" src="https://i.ibb.co/zNpgX47/6062.jpg" />
+                            <img className="rounded-t-lg" src="https://i.ibb.co/Sw48Xxh/Screenshot-2024-06-22-080311.png" />
                         </a>
                         <div className="p-5">
                             <a>
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">CareNow</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">News portal</h5>
                             </a>
-                            <p className="mb-3 font-normal ">CareNow is an online dental clinic where people can get online dental advice and treatment bia internet.</p>
+                            <p className="mb-3 font-normal ">News portal is an online news application where people can consume online news all over the world.</p>
                             {/* span to hold tags */}
                             <span className="flex gap-1">
                                 <span className="bg-[#001E2B] p-2 text-white font-semibold text-xs rounded-md">Mongodb</span>
