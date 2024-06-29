@@ -49,7 +49,7 @@ const Banner = () => {
                             </li>
 
                             <li>
-                                <a target='_blank' href="https://drive.google.com/file/d/1_2ESc7TbCPPw8fQeMkt9jMT-KB_FQY4V/view?usp=sharing">
+                                <a target='_blank' href="https://drive.google.com/file/d/1K6hFcc6isGaF04LZkoBZT-7IyRqcu3gS/view?usp=sharing">
                                     <button className='flex border-[#078D84] border-[1px] hover:bg-[#078D84] p-4 rounded-lg items-center gap-1'>
                                         <p>Resume</p>
                                         <RxResume />
