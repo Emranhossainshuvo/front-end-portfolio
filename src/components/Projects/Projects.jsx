@@ -80,8 +80,8 @@ const Projects = () => {
                                 <span className="bg-[#DBEAFE] p-2 font-semibold text-xs rounded-md">React</span>
                             </span>
                             <section className="flex justify-between">
-                                <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/Shongjukti"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
-                                <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://shongjukti.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
+                                <a target="_blank" className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://github.com/Emranhossainshuvo/book-share"><span className="hover:font-bold ">Github repository</span> <FaLongArrowAltRight /></a>
+                                <a className="text-[#255BF9] flex gap-3 items-center mt-6 " href="https://bookswap-mern.netlify.app/"><span className="hover:font-bold ">Live link</span> <FaLongArrowAltRight /></a>
                             </section>
 
                         </div>
