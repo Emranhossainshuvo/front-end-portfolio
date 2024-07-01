@@ -66,13 +66,13 @@ const Projects = () => {
                     {/* project three */}
                     <div className=" cursor-pointer bg-[#FFFFFF] border-b text-black border-gray-200 rounded-lg shadow">
                         <a href="#">
-                            <img className="rounded-t-lg" src="https://i.ibb.co/mhtMm4s/125055.jpg" />
+                            <img className="rounded-t-lg" src="https://i.ibb.co/5n4LpkT/gulfer-ergin-LUGu-Ctvlk1-Q-unsplash.jpg" />
                         </a>
                         <div className="p-5">
                             <a>
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Shongjukti</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Book swap</h5>
                             </a>
-                            <p className="mb-3 font-normal ">This is my personal blog website, i write down my thougts recent experience etc there. I also share my knowledge as well.  </p>
+                            <p className="mb-3 font-normal ">This is a social book sharing platform where people can share their old books to another readers  </p>
                             {/* span to hold tags */}
                             <span className="flex gap-1">
                                 <span className="bg-[#C6E9BC] p-2 font-semibold text-xs rounded-md">Node</span>
