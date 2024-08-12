@@ -27,7 +27,7 @@ const Contacts = () => {
                                     </span>
                                 </li>
                             </a>
-                            <a target="_blank" href="">
+                            <a target="_blank" href="https://x.com/emran_hoss94262">
                                 <li className="flex hover:text-blue-500 justify-start gap-2 mb-2 items-center">
                                     <FaTwitter />
                                     Stay together at Twitter
